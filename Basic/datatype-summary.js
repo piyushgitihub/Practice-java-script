@@ -32,3 +32,23 @@ const myFunction = function(){
     console.log("Hello world")
 };
 
+let myYTname = "lovely"
+
+let anotherName = myYTname;
+anotherName = "toki"
+
+
+console.log(anotherName)
+console.log(myYTname)
+
+let user = {
+    email: "noob@gmail.com",
+    upiId: "pop@ybl"
+}
+
+let user0 = user
+
+user0.email = "pro@gmail.com"
+
+console.log(user)
+console.log(user0)
