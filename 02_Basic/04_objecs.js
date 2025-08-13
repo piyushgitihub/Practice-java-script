@@ -55,11 +55,42 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+
+//destructuring  means PROPS
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Piyush"
+}
+
+// console.log(course.courseInstructor)
+
+const {courseInstructor} = course;
+
+//we can give it to a name
+// const {courseInstructor: instructor} = course
+
+console.log(courseInstructor);
+
+// JSON that is 
+
+// {
+//     "name" : "piyush",
+//     "coursename" : "js in hindi",
+//     "price" : "free"
+// }
+
+[
+   {},
+   {},
+   {}
+]
