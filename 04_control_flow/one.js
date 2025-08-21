@@ -19,3 +19,32 @@
 // }
 
 // console.log(`User power: ${power}`);
+
+// const balance = 1000
+
+// if (balance < 500) {
+//     console.log("less than 600");
+// } else if (balance < 750){
+//     console.log("less than 800");
+// } else if(balance < 900){
+//     console.log("less than 1000")
+// } else {
+//     console.log("less than 1500");
+// }
+
+
+// AND Operator
+const userLoggedIn = true
+const debitCard = true
+
+if (userLoggedIn && debitCard) {
+    console.log("Allow to buy course");
+}
+
+//OR Operator
+const loggedInFromGoogle = true
+const loggedInFromEmail = false
+
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("user logged in")
+}
