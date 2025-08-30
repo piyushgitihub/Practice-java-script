@@ -1,13 +1,13 @@
 // if
 
 // const isLoggedIn = true
-// const temperature = 38
+const temperature = 38
 
-// if ( temperature <= 40){
-//     console.log("today it feels like cold")
-// } else {
-//     console.log("today it feels like warm")
-// }
+if ( temperature <= 40){
+    console.log("today it feels like cold")
+} else {
+    console.log("today it feels like warm")
+}
 
 // <, >, <=, >=, ==, !=, ===, !==
 
@@ -34,17 +34,17 @@
 
 
 // AND Operator
-const userLoggedIn = true
-const debitCard = true
+// const userLoggedIn = true
+// const debitCard = true
 
-if (userLoggedIn && debitCard) {
-    console.log("Allow to buy course");
-}
+// if (userLoggedIn && debitCard) {
+//     console.log("Allow to buy course");
+// }
 
 //OR Operator
-const loggedInFromGoogle = true
-const loggedInFromEmail = false
+// const loggedInFromGoogle = true
+// const loggedInFromEmail = false
 
-if (loggedInFromGoogle || loggedInFromEmail) {
-    console.log("user logged in")
-}
+// if (loggedInFromGoogle || loggedInFromEmail) {
+//     console.log("user logged in")
+// }
