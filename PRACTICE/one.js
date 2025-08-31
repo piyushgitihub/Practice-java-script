@@ -11,10 +11,18 @@
 
 // 
 
-const num = 101
+// const num = 101
 
-if(num <= 100){
-    console.log("Number")
-} else{
-    console.log("Big Number")
+// if(num <= 100){
+//     console.log("Number")
+// } else{
+//     console.log("Big Number")
+// }
+
+// function
+
+function sum(x, y){
+    return x + y;
 }
+
+console.log(sum(5, 9))
