@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Events</title>
+</head>
+<body>
+    <div style="color: black;">
+        <ul id="images"  >
+            <li> <img width="'10px" id="tiger" src="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg" alt=""></li>
+            <li> <img width="'200px" id="flower" src="https://images.pexels.com/photos/3732659/pexels-photo-3732659.jpeg" alt=""></li>
+            <li> <img width="'200px" id="herbal" src="https://images.pexels.com/photos/105028/pexels-photo-105028.jpeg" alt=""></li>
+            <li> <img width="'200px" id="winter" src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg" alt=""></li>
+            <li> <img width="'200px" id="food" src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt=""></li>
+            <li> <img width="'200px" id="waterfall" src="https://images.pexels.com/photos/358457/pexels-photo-358457.jpeg" alt=""></li>
+            <li><a style="color: yellow;" href="https://google.com" id="google">Google</a/li>
+        </ul>
+    </div>><
+</body>
+<script>
+    // document.getElementById('flower').onclick = function(){
+    //     alert("flower shown")
+    // }
+    
+    //attachEvent()
+    //jQuery - on
+
+    // type, timeStamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget
+    // clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keycode
+
+    // document.getElementById('images').addEventListener('click',function(e){
+    //     console.log("clicked inside the ul");
+    // },false);
+
+    // document.getElementById('flower').addEventListener('click',function(e){
+    //     console.log("flower clicked");
+    //     e.stopPropagation()
+    // },false);
+
+    // document.getElementById('google').addEventListener('click',function(e){
+    //     e.preventDefault();
+    //     e.stopPropagation()
+    //     console.log("google clicked")
+    // },true);
+
+    document.getElementById('#images').addEventListener('click',function(e){
+        console.log(e.target.parentNode);
+        let removeIT = e.target.parentNode
+        removeIT.remove()
+    },false);
+
+</script>
+</html>
