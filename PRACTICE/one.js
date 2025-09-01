@@ -21,8 +21,14 @@
 
 // function
 
-function sum(x, y){
-    return x + y;
+// function sum(x, y){
+//     return x + y;
+// }
+
+// console.log(sum(5, 9))
+
+function mul(a, b){
+    return a * b;
 }
 
-console.log(sum(5, 9))
+console.log(mul(8, 9))
