@@ -27,8 +27,14 @@
 
 // console.log(sum(5, 9))
 
-function mul(a, b){
-    return a * b;
-}
+// function mul(a, b){
+//     return a * b;
+// }
 
-console.log(mul(8, 9))
+// console.log(mul(8, 9))
+
+let x = 20;
+let y = 50;
+let z = x + y;
+
+console.log(z)
