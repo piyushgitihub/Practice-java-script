@@ -69,17 +69,29 @@
 
 // remove array from the list or array
 
-let num = [10, 20, 30 ,40] 
-console.log("Orifginal array: " + num);
+// let num = [10, 20, 30 ,40] 
+// console.log("Orifginal array: " + num);
 
-// removes and returns the last element
-let lst = num.pop();
-console.log("After removing the last : " + num);
+// // removes and returns the last element
+// let lst = num.pop();
+// console.log("After removing the last : " + num);
 
-// removes and returns the first element
-let fst = num.shift();
-console.log("After removing the first : " + num);
+// // removes and returns the first element
+// let fst = num.shift();
+// console.log("After removing the first : " + num);
 
-//removes two index 
-num.splice(2, 3);
-console.log("After removing two element : " + num);
+// //removes two index 
+// num.splice(2, 3);
+// console.log("After removing two element : " + num);
+
+// increase or decrease the array length
+
+let hero = ["IRON MAN", "FLASH", "THOR", "SUPER MAN"]
+
+// increase the array length to 8
+hero.length = 8;
+console.log("After increasing length : " + hero)
+
+// decrease the array length to 2
+hero.length = 2;
+console.log("After decreasing the array length : " + hero);
