@@ -57,13 +57,29 @@
 
 // Adding element to the array 
 
-let num = [10, 20, 30 ,40]
+// let num = [10, 20, 30 ,40]
 
-// adding element to the end of the array
-num.push(50);
+// // adding element to the end of the array
+// num.push(50);
 
-// adding element to the beginning of the array
-num.unshift(0);
+// // adding element to the beginning of the array
+// num.unshift(0);
 
-console.log(num)
+// console.log(num)
 
+// remove array from the list or array
+
+let num = [10, 20, 30 ,40] 
+console.log("Orifginal array: " + num);
+
+// removes and returns the last element
+let lst = num.pop();
+console.log("After removing the last : " + num);
+
+// removes and returns the first element
+let fst = num.shift();
+console.log("After removing the first : " + num);
+
+//removes two index 
+num.splice(2, 3);
+console.log("After removing two element : " + num);
