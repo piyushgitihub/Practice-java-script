@@ -86,12 +86,14 @@
 
 // increase or decrease the array length
 
-let hero = ["IRON MAN", "FLASH", "THOR", "SUPER MAN"]
+// let hero = ["IRON MAN", "FLASH", "THOR", "SUPER MAN"]
 
-// increase the array length to 8
-hero.length = 8;
-console.log("After increasing length : " + hero)
+// // increase the array length to 8
+// hero.length = 8;
+// console.log("After increasing length : " + hero)
 
-// decrease the array length to 2
-hero.length = 2;
-console.log("After decreasing the array length : " + hero);
+// // decrease the array length to 2
+// hero.length = 2;
+// console.log("After decreasing the array length : " + hero);
+
+
