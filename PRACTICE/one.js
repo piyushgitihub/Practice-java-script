@@ -97,3 +97,10 @@
 // console.log("After decreasing the array length : " + hero);
 
 
+let myMap = new Map();
+let anotherMap = new Map([
+    ['name', 'PIYUSH'],
+    ['age', 20],
+    ['city', 'BHUBANESWAR']
+]);
+console.log(anotherMap);
