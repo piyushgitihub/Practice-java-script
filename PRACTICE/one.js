@@ -97,10 +97,19 @@
 // console.log("After decreasing the array length : " + hero);
 
 
-let myMap = new Map();
-let anotherMap = new Map([
-    ['name', 'PIYUSH'],
-    ['age', 20],
-    ['city', 'BHUBANESWAR']
-]);
-console.log(anotherMap);
+// let myMap = new Map();
+// let anotherMap = new Map([
+//     ['name', 'PIYUSH'],
+//     ['age', 20],
+//     ['city', 'BHUBANESWAR']
+// ]);
+// console.log(anotherMap);
+
+function person (name, age){
+    this.name = name,
+    this.age = age
+     this.sayHello = function() {
+        console.log(`My name is ${this.name} and I am ${this.age} years old.`);
+    };
+    
+}
