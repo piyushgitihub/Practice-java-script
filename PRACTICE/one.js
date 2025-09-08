@@ -105,11 +105,14 @@
 // ]);
 // console.log(anotherMap);
 
-function person (name, age){
-    this.name = name,
-    this.age = age
-     this.sayHello = function() {
-        console.log(`My name is ${this.name} and I am ${this.age} years old.`);
-    };
+// function person (name, age){
+//     this.name = name,
+//     this.age = age
+//      this.sayHello = function() {
+//         console.log(`My name is ${this.name} and I am ${this.age} years old.`);
+//     };
     
-}
+//
+
+const name = "piyush"
+console.log(name);
